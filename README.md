@@ -4,7 +4,7 @@ Course project for CS 412 (Machine Learning, UIC, Fall 2026) by Shicheng Fan, Ji
 
 TRACE recovers continuously evolving causal mechanisms from time series. Each intermediate mechanism is modeled as a convex combination of atomic mechanisms, a Mixture-of-Experts sequential VAE learns one expert per atomic mechanism (Stage 1), and the mixing trajectory is recovered at test time by least-squares projection (Stage 2).
 
-The code builds on the official TRACE implementation, [shichengf/trace](https://github.com/shichengf/trace) (MIT License), which in turn adapts parts of [TDRL](https://github.com/weirayao/tdrl). This repository currently covers the synthetic and CartPole experiments.
+Part of the codebase is adapted from [TDRL](https://github.com/weirayao/tdrl) (MIT License). This repository currently covers the synthetic and CartPole experiments.
 
 ## Repository layout
 
